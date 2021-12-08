@@ -82,7 +82,7 @@ def save_model(model, model_filepath):
 
 def main():
     """
-    Run all functions above in the correct order.
+    Runs all functions above in the correct order.
     """
     if len(sys.argv) == 3:
         database_filepath, model_filepath = sys.argv[1:]
